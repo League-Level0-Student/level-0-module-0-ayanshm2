@@ -28,7 +28,7 @@ public class RobotSquare {
 
         // DRAW.  Draw a line. Use this command:
     		  /**     rob.move(<distance>);    **/
-    	rob.move(900);
+    	rob.move(178);
 
 	// TURN.  Turn 90 degrees. Use this command:
     		  /**     rob.turn(<angle>);    **/
@@ -53,7 +53,7 @@ public class RobotSquare {
     	 **/
     	
     		 while ( count < 4 ) {
-    			 rob.move(900); 
+    			 rob.move(178); 
     			 rob.turn(90);
 
     			 count+= 1;
