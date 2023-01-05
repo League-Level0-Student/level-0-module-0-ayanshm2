@@ -25,11 +25,11 @@ public class RobotSpiral {
 		int count = 0;
 		// LOOP. Start a while loop to repeat the COLOR, DRAW, TURN, and COUNT code below until 50 lines have been drawn
 		while ( count < 50) {
-			 rob.move(500); 
+			 rob.move(150); 
 			 rob.turn(360/7);
 
 			 count+= 1;
-			 rob.setPenWidth(123495);
+			 rob.setPenWidth(80);
 			 rob.setRandomPenColor();
 		}
 			// COLOR.   Have the robot set a random pen color:      setRandomPenColor()
