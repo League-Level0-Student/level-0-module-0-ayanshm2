@@ -11,13 +11,13 @@ public class MadlibsOfTheAmazon {
 		// Get the player to enter an adjective
 		JOptionPane.showInputDialog("please give me a adjective");
 		// Get the player to enter a type of liquid
-
+		JOptionPane.showInputDialog("please give me a liquid");
 		// Get the player to enter a body part
-
+		JOptionPane.showInputDialog("please give me a  body part");
 		// Get the player to enter a verb
-
+		JOptionPane.showInputDialog("please give me a verb");
 		// Get the player to enter a place
-
+		JOptionPane.showInputDialog("please give me a place");
 		// The story below has has been written as a group of Strings joined together by + signs.
 		// The story contains place holders, indicated by [** **] which you need to replace with
 		// the values entered by the player.
